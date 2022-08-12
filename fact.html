@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Generate A Buzz</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+  <div class="header">
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Bee the Impact</a>
+    <a href="solution.html">Bee the Solution</a>
+    <a href="fact.html">Generate a Buzz</a>
+  </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  
+    
+  <div class="headingBG">
+    <img id="slay" src="assets/LOGO.png" width=445 height=170>
+  </div>
+  </div>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+   <div class="farmingSector"><br>
+<p class="thecooltext">Did you know bees have five eyes and the queen bee has control over whether she lays male or female eggs?</p><br></div><br>
+<div class="fiveeyes">
+  <img class="fiveeyes" src="assets/beeFiveEyes.jpg" width=400 height=235>
+</div><br>
+    <div class="farmingSector">
+     <p class="thecooltext">
+Click the button below to know more about them:
+</p> </div>
+
+
+<div class="genFact">
+  <p class="thecooltext" id="lessgo">Don’t be a buzz-kill!</p><p class="lastbro"> Generate a fact and share it with your friends!</p>
+    <button id="myButton">Tell me!</button>
+<p id="fact" class="lastbro"></p></div>
+
+    <p class="farmingSector">Facts from this <a href="https://honeybeenet.gsfc.nasa.gov/Honeybees/Basics.htm">report!</p>
+
+    <script defer>
+    var factList=[
+  "The principal form of communication among honey bees is through chemicals called Pheromones!",
+  "The Queen Bee lies around 2,000 eggs every day!",
+  "A bee can die if it loses its stinger!",
+  "An average beehive can hold around 50,000 bees!",
+  "Bees have been here about 30 million years!",
+  "The average Honeybee makes about 1/12th of a teaspoon of honey in her lifetime!",
+  "Bees have 4 wings!",
+  "Male bees in the hive are called Drones!",
+  "Bees fly about 20 mph!",
+  "Female bees in the hive (except the queen) are called Worker Bees!"];
+
+var fact= document.getElementById("fact");
+var myButton=document.getElementById("myButton");
+var count=0;
+function displayFact(){
+  fact.innerHTML = factList[count];
+  count++;
+  if (count == factList.length){
+    count = 0;
+  }
+}
+myButton.addEventListener("click", displayFact);
+</script>
+
+    
+  </body>
+</html>

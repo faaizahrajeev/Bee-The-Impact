@@ -1,0 +1,259 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+/* BACKGROUND IMAGE */
+body {
+  background-image:url("assets/structureBG.jpg");
+  background-size: 1259px 545px;
+  background-repeat: repeat;
+}
+
+/* NAVIGATION BAR */
+span{
+  margin-top:20px;
+  margin-left:2%;
+  color:white;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f2d00f;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.2s;
+}
+
+.sidenav a:hover {
+  color: grey;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* BEE THE IMPACT */
+.header img{
+  display: flex;
+  max-width:1080px;
+}
+
+.headingBG{
+  border-top: 3px solid black;
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+  margin-bottom:20px;
+  background-color:#f2d00f;
+  border-bottom: 3px solid black;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: absolute;
+  left: 70px;
+  max-width:450px;
+  margin: auto;  
+}
+
+.slideshow-container img, .rightImage img, .leftImage img, #insecti {
+  border: 4px solid black;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+  background-color:black;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* next to gallery images TEXT DISPLAY*/
+
+.slidesandtext, .rightText{ 
+  margin-right:70px;
+  background-color:black;
+  width: 650px; 
+  float: right;
+}
+
+/* FONT TYPES P TAG AND THE COOL ONE*/
+p{
+  font-family: "Georgia", serif;
+  color:#f2d00f;
+  text-align: center;
+  margin: 4%;
+  margin-top:2%;
+  font-size: 23px;
+}
+
+.thecooltext{
+  padding-top:10px;
+  font-size: 35px;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+/* INDISPENSABLE POLLINATORS*/
+#one{
+  margin-top:300px;
+  font-size: 35px;
+  padding-top:20px;
+  font-family: 'Rubik Dirt', cursive;
+  
+}
+
+.indispensable, .preconditions, .reasons, .Individual, .farmingSector, .government{ 
+  background-color:black;
+  margin-left:100px;
+  margin-right:100px;
+  
+}
+
+/* THREE FACT BOXES*/
+#factone{
+  margin-left:20px;
+  float:left;
+  width:340px;
+  height:250px;
+  border:solid black;
+}
+
+#facttwo{
+  float:left;
+  width:340px;
+  height:250px;
+  border:solid black;
+  margin-left:20px;
+}
+
+#factthree{
+  margin-right:20px;
+  float:right;
+  width:300px;
+  height:250px;
+  border:solid black;
+}
+
+.containerdivNewLine{ 
+  clear: both; 
+  float: left; 
+  display: block; 
+  position: relative; 
+} 
+
+/* VIDEO- WE'RE SAVING THE WRONG BEES*/
+.videoMisconception, .fiveeyes{
+  text-align:center;
+}
+
+
+/* IMAGE ON THE RIGHT TEXT ON THE LEFT*/
+.leftText{ 
+  margin-top:20px;
+  margin-left:100px;
+  background-color:black;
+  width: 600px; 
+  float: left;
+}
+
+/*QUOTE*/
+#quote{
+  background-color:black;
+  font-family: 'Great Vibes', cursive;
+  font-size: 55px;
+  color:white;
+  margin-left:80px;
+  margin-right:70px;
+}
+
+/*PRECONDITIONS*/
+.preconditions{
+  padding-bottom:1px;
+}
+
+.rightImage{
+  text-align:right;
+  margin-right:100px;
+}
+
+.leftImage{
+    margin-top:20px;
+  margin-left:100px;
+  float: left;
+}
+
+
+/*GENERATE A FACT*/
+.genFact{
+  background:#f2d00f;
+  border-radius:10px;
+  border:5px solid green;
+  padding:15px;
+  margin-top:30px;
+  margin-left:35%;
+  margin-right:35%;
+  text-align:center;
+  line-height:2em;
+  color:black;
+}
+
+#myButton{
+  background:green;
+  border-style:none;
+  color:white;
+  padding:10px
+  
+}
+
+
+.lastbro, #lessgo{
+  color:black;
+}
