@@ -1,7 +1,5 @@
-# Activist Toolkit Sample Project
+Bees lie at the heart of our survival. They pollinate 1 in 3 bites of food we eat and are essential to the health and prosperity of countless ecosystems. But today, bee colonies are in trouble. Bees are in decline on a global scale as they face many threats, from habitat loss to the use of toxic pesticides. The website aims to spread awareness of the common misconception that Honeybees are declining, and we must redirect our focus on Wild Bees instead. It lists out the preconditions they require to survive, the threats they face and steps that individuals, farmers and the government can take to increase their population.
 
-1 of 3 bites of food depends on pollinators. Almost 90% of wild plants and 75% of leading global crops depend on animal pollination.
+This project was made on HTML, CSS and JavaScript as part of my third assignment for GirlsWhoCode's Summer Immersion Program. I used concepts of JavaScript such as functions, conditionals, DOM, event listeners, etc., and concepts of CSS such as padding, designing, layout, etc. while coding. The website has three sections: Bee the Impact - which talks about the Significance of wild bees, Preconditions and Threats; Bee the Solution - which lists out steps that can be taken to save bees; Generate a Buzz - which generates a fact about Bees!
 
-Bees are in decline on a global scale as they face many threats, from habitat loss to the use of toxic pesticides. 
-
-Learn More here ---> https://faaizah-activist-toolkit.intensifaai.repl.co/index.html
+To know more, click https://faaizah-activist-toolkit.intensifaai.repl.co/index.html !
