@@ -2,4 +2,3 @@ Bees lie at the heart of our survival. They pollinate 1 in 3 bites of food we ea
 
 This project was made on HTML, CSS and JavaScript as part of my third assignment for GirlsWhoCode's Summer Immersion Program. I used concepts of JavaScript such as functions, conditionals, DOM, event listeners, etc., and concepts of CSS such as padding, designing, layout, etc. while coding. The website has three sections: Bee the Impact - which talks about the Significance of wild bees, Preconditions and Threats; Bee the Solution - which lists out steps that can be taken to save bees; Generate a Buzz - which generates a fact about Bees!
 
-To know more, click https://faaizah-activist-toolkit.intensifaai.repl.co/index.html !
